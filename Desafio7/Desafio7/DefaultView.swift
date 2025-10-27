@@ -18,7 +18,7 @@ struct DefaultView: View {
         Song(id: 7, name: "Bids of a feather", artist: "Billie Eilish", capa: "https://i.scdn.co/image/ab67616d0000b27371d62ea7ea8a5be92d3c1f62"),
         Song(id: 8, name: "GNX", artist: "Kendrick Lamar", capa: "https://upload.wikimedia.org/wikipedia/pt/9/93/Kendrick_Lamar_-_GNX.png"),
         Song(id: 9, name: "Papercut", artist: "Linkin Park", capa: "https://upload.wikimedia.org/wikipedia/en/2/2a/Linkin_Park_Hybrid_Theory_Album_Cover.jpg"),
-        Song(id: 10, name: "Like This!", artist: "Matuê", capa: "https://i.scdn.co/image/ab67616d0000b27363ecdc2fc549275b51fbb9a7"),
+        Song(id: 10, name: "Like This", artist: "Matuê", capa: "https://i.scdn.co/image/ab67616d0000b27363ecdc2fc549275b51fbb9a7"),
         Song(id: 11, name: "Teste11", artist: "Unknown", capa: "a"),
         Song(id: 12, name: "Teste12", artist: "Unknown", capa: "a")
     ]
@@ -134,6 +134,7 @@ struct DefaultView: View {
                 }
             }
         }
+        .tint(.white)
     }
 }
 
