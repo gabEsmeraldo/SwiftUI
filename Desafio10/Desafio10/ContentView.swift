@@ -62,10 +62,11 @@ struct ContentView: View {
                                         .onTapGesture {
                                             tts.speak(AVSpeechUtterance(string: portao))
                                         }
-                                    Image(systemName: "mic.circle")
+                                    Image(systemName: "message.and.waveform.fill")
                                         .onTapGesture {
                                             showTranslation.toggle()
                                         }
+                                    .translationPresentation(isPresented: $showTranslation, text: portao)
                                 }
                             }
                         }
